@@ -5,4 +5,4 @@ To make your own montages:
 1. Create lists of ascending and descending frames to be montaged (*_frames_a.text and *_frames_d.txt)
 2. Create a list of the network pngs for these frames in the order you want them to appear on the montage. Where there is a gap put null:
 3. Edit parameters in network_montage_a.sh and network_montage_d.sh to fine tune your montage
-e.g. plot_tile should be the size of your desired montage with the number of columsn and rows determined by the number of LiCS frames across your region E-W and N-S
+e.g. plot_tile should be the size of your desired montage with the number of rows and columns determined by the number of LiCS frames across your region E-W and N-S
