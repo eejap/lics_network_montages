@@ -12,7 +12,6 @@ today=240223
 
 working_directory=/nfs/a285/homes/eejap/datasets/lics/networks/iran
 push_directory=/nfs/see-fs-02_users/eejap/public_html/lics_network_montage
-jasmin_path=gws-access.jasmin.ac.uk/public/nceo_geohazards/LiCSAR_products
 descending_frames=iran_frames_d.txt
 descending_frames_order=iran_frames_d_ordered.txt
 montage_name=iran_networks_montage_d.png
@@ -24,6 +23,8 @@ plot_tile=10x8
 # mkdir $working_directory/descending
 
 ########### Do not edit below ############
+# Path where public LiCSAR products are stored
+jasmin_path=gws-access.jasmin.ac.uk/public/nceo_geohazards/LiCSAR_products
 
 # Make directory to store Iran ascending networks available on Portal today
 mkdir $working_directory/descending/$today
