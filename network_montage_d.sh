@@ -8,7 +8,7 @@
 # Pulled network.png images will be saved in $working_directory/descending/$today
 
 # change these variables
-today=240223
+today=030323
 
 working_directory=/nfs/a285/homes/eejap/datasets/lics/networks/iran
 push_directory=/nfs/see-fs-02_users/eejap/public_html/lics_network_montage
@@ -29,7 +29,7 @@ jasmin_path=gws-access.jasmin.ac.uk/public/nceo_geohazards/LiCSAR_products
 # Make directory to store Iran ascending networks available on Portal today
 mkdir $working_directory/descending/$today
 
-cp $descending_frames_order $working_directory/descending/$today
+cp $descending_frames_order $working_directory/descending/$today/.
 
 # Use the list of descending frames covering Iran to pull networks for each frame from the Portal and store network pngs in the /descending/$today directory. Network pngs are given the name of the frame they refer to.
 while IFS= read -r line; do
